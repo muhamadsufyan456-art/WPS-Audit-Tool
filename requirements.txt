@@ -1,0 +1,14 @@
+# No Python (pip) dependencies — this tool only uses the standard library
+# (os, re, shutil, subprocess, sys, time, signal).
+#
+# It DOES require the following system packages to be installed and on PATH:
+#   aircrack-ng   (provides airmon-ng, airodump-ng)
+#   reaver        (provides reaver, wash)
+#   bully
+#   pixiewps
+#
+# On Debian/Ubuntu/Kali:
+#   sudo apt update && sudo apt install -y aircrack-ng reaver bully pixiewps
+#
+# On Arch:
+#   sudo pacman -S aircrack-ng reaver bully pixiewps
